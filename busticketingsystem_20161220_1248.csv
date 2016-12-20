@@ -1,3 +1,4 @@
-Id,Title,Labels,Iteration,Iteration Start,Iteration End,Type,Estimate,Current State,Created at,Accepted at,Deadline,Requested By,Description,URL,Owned By
-135947701,add reset button to schedule module update function.,schedule,,,,feature,2,accepted,"Dec 12, 2016","Dec 15, 2016",,Chenwei Cheow,"as a user, i use reset button on schedule, so that can reset the all the data has been wrongly retrieved.",https://www.pivotaltracker.com/story/show/135947701,Chenwei Cheow
-136184093,add reset button to delete function on schedule module,schedule,,,,feature,2,accepted,"Dec 15, 2016","Dec 20, 2016",,Chenwei Cheow,"as a user, i use reset button to clear data on schedule, so that can reset the all the data has been retrieved wrongly.",https://www.pivotaltracker.com/story/show/136184093,Chenwei Cheow
+Id,Title,Labels,Iteration,Iteration Start,Iteration End,Type,Estimate,Current State,Created at,Accepted at,Deadline,Requested By,Description,URL,Owned By,Owned By
+135947581,add the search function in update schedule module,schedule,,,,feature,3,accepted,"Dec 12, 2016","Dec 15, 2016",,Yong Kuan Wah,"as a user, i can search the schedule details when i need to update it, so i can confirm the information is me want to update ",https://www.pivotaltracker.com/story/show/135947581,Yong Kuan Wah,
+136184527,delete the schedule ,schedule,,,,feature,2,started,"Dec 15, 2016",,,SengHong,"as a user, i want to delete the schedule
+so that i can make a new schedule ",https://www.pivotaltracker.com/story/show/136184527,SengHong,Yong Kuan Wah
