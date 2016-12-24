@@ -1,4 +1,10 @@
-language:java
+language: java
 
-sudo : required
-ant test
+jdk:
+  - oraclejdk8
+
+script: ant test
+
+sudo: required
+#before_install:
+# - cd java
