@@ -1,0 +1,4 @@
+Id,Title,Labels,Iteration,Iteration Start,Iteration End,Type,Estimate,Current State,Created at,Accepted at,Deadline,Requested By,Description,URL,Owned By
+135326521,search staff using ID,staff,,,,feature,1,accepted,"Dec 1, 2016","Dec 4, 2016",,SengHong,"as a user, i want to search staff details by typing in the staff ID 
+so that this will make the searching more efficient ",https://www.pivotaltracker.com/story/show/135326521,SengHong
+135326643,address input,staff,,,,feature,1,accepted,"Dec 1, 2016","Dec 4, 2016",,SengHong,"as a user, i want address input to be split into different part instead inside one textbox, so that it can provide efficiency inside the database",https://www.pivotaltracker.com/story/show/135326643,SengHong

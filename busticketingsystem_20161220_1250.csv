@@ -1,0 +1,4 @@
+Id,Title,Labels,Iteration,Iteration Start,Iteration End,Type,Estimate,Current State,Created at,Accepted at,Deadline,Requested By,Description,URL,Owned By,Owned By
+135947581,add the search function in update schedule module,schedule,,,,feature,3,accepted,"Dec 12, 2016","Dec 15, 2016",,Yong Kuan Wah,"as a user, i can search the schedule details when i need to update it, so i can confirm the information is me want to update ",https://www.pivotaltracker.com/story/show/135947581,Yong Kuan Wah,
+136184527,delete the schedule ,schedule,,,,feature,2,started,"Dec 15, 2016",,,SengHong,"as a user, i want to delete the schedule
+so that i can make a new schedule ",https://www.pivotaltracker.com/story/show/136184527,SengHong,Yong Kuan Wah
