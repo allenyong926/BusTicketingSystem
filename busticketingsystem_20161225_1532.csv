@@ -1,0 +1,7 @@
+Id,Title,Labels,Iteration,Iteration Start,Iteration End,Type,Estimate,Current State,Created at,Accepted at,Deadline,Requested By,Description,URL,Owned By,Owned By
+136426529,add save button,payment,,,,feature,1,accepted,"Dec 20, 2016","Dec 23, 2016",,SengHong,"as a user, i want to save my payment information so 
+i can keep it in database ",https://www.pivotaltracker.com/story/show/136426529,SengHong,
+136427205,get schedule details,payment,,,,feature,2,accepted,"Dec 20, 2016","Dec 23, 2016",,SengHong,"as  a user, i want to get my schedule details from database,
+so i can know the schedule of bus before purchasing my ticket",https://www.pivotaltracker.com/story/show/136427205,SengHong,Yong Kuan Wah
+136610701,failed retrieve database,schedule,,,,bug,,accepted,"Dec 23, 2016","Dec 23, 2016",,SengHong,"unable to retrieve item from database 
+need to use mysql connector file",https://www.pivotaltracker.com/story/show/136610701,SengHong,
