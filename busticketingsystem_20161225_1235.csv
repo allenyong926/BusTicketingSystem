@@ -1,0 +1,4 @@
+Id,Title,Labels,Iteration,Iteration Start,Iteration End,Type,Estimate,Current State,Created at,Accepted at,Deadline,Requested By,Description,URL,Owned By,Owned By
+136559501,missing file for the schedule modula,schedule,,,,bug,,accepted,"Dec 22, 2016","Dec 23, 2016",,Yong Kuan Wah,need to import 1 thing to netbean,https://www.pivotaltracker.com/story/show/136559501,Yong Kuan Wah,
+136425653,calculate amount,payment,,,,feature,3,accepted,"Dec 20, 2016","Dec 25, 2016",,Yong Kuan Wah,"As a user, i can calculate the amount to the customer based on the ticket information,so that i can receive the payment form the customer",https://www.pivotaltracker.com/story/show/136425653,Yong Kuan Wah,Chenwei Cheow
+136638199,change new database,"",,,,bug,,accepted,"Dec 24, 2016","Dec 25, 2016",,Yong Kuan Wah,update database details,https://www.pivotaltracker.com/story/show/136638199,Yong Kuan Wah,
