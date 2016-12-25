@@ -1,0 +1,3 @@
+Id,Title,Labels,Iteration,Iteration Start,Iteration End,Type,Estimate,Current State,Created at,Accepted at,Deadline,Requested By,Description,URL,Owned By,Owned By
+136427145,reset button,payment,,,,feature,0,accepted,"Dec 20, 2016","Dec 23, 2016",,Wong Tat Minn,"as a user, i can reset all the field, so that when i enter wrong information i can erase it ",https://www.pivotaltracker.com/story/show/136427145,Wong Tat Minn,
+136426861,view schedule ,payment,,,,feature,1,accepted,"Dec 20, 2016","Dec 23, 2016",,Wong Tat Minn,"as a user, i can view schedule when do the selling ticket to customer,so that i can ensure the information is correct",https://www.pivotaltracker.com/story/show/136426861,Wong Tat Minn,SengHong
