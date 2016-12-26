@@ -10,5 +10,5 @@ jdk:
   services:
   - mysql
   
-  git@github.com:someuser/somelibrary.git
+  git@github.com:allenyong926/BusTicketingSystem.git
   
