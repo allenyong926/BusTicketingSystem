@@ -10,4 +10,5 @@ jdk:
   services:
   - mysql
   
+  git@github.com:someuser/somelibrary.git
   
