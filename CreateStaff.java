@@ -291,8 +291,8 @@ public class CreateStaff extends javax.swing.JPanel {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
 
-            String name = tf_name.getText();
-            String pwd = tf_pwd.getText();
+            String name = tf_name1.getText();
+            String pwd = tf_pwd1.getText();
             String sex = (String)cb_sex.getSelectedItem();
             String ph = tf_ph.getText();
             String address = tf_address.getText();
