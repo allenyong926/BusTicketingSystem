@@ -367,31 +367,7 @@ public class PurchaseTicket extends javax.swing.JFrame {
              int b = Integer.parseInt(seat);
              int c = b - a;
              
-        if(name.equals("")){
-            JOptionPane.showMessageDialog(null,"Name Cannot be empty");
-            return ;
-        }
-        
-        if(name.matches("[a-zA-Z ,]+")){
-           
-        }else
-            {
-                JOptionPane.showMessageDialog(null,"Name cannot contain sysmbol or digit");
-                return;        
-            }
-        
-       if(ph.equals("")){
-            JOptionPane.showMessageDialog(this,"Phone Number Cannot be empty");
-            return ;
-        }
-        
-        if(ph.matches("\\d{3}-\\d{7,8}")){
-          
-        }else
-            {
-             JOptionPane.showMessageDialog(null,"Phone Number format incorrect must xxx-xxxxxx"); 
-             return;      
-            }
+       
         
         if(address.equals("")){
             JOptionPane.showMessageDialog(null,"Address Cannot be empty");
