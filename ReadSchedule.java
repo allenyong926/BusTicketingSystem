@@ -29,31 +29,7 @@ public class ReadSchedule extends javax.swing.JFrame {
         initComponents();
         Show_Users_In_JTable();
     }
-    
-     public Connection getConnection()
-   {
-       Connection con;
-       try {
-           con = DriverManager.getConnection("jdbc:mysql://localhost:3306/busticket", "root","");
-           return con;
-       } catch (Exception e) {
-           e.printStackTrace();
-           return null;
-       }
-   }
-     
-     public void refresh(){
-         try{
-             Connection con = null;
-             String sql= "SELECT * FROM schedule ";
-             PreparedStatement pst = con.prepareStatement(sql);
-             ResultSet rs = pst.executeQuery();
-             tb_schedule.setModel(DbUtils.resultSetToTableModel(rs));
-         }catch(Exception e){
-             e.printStackTrace();
-         }
-     }
-     
+         
       public ArrayList<Schedule> getUsersList()
    {
        ArrayList<Schedule> usersList = new ArrayList<Schedule>();
