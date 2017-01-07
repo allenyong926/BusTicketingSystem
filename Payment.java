@@ -35,8 +35,8 @@ public class Payment extends javax.swing.JFrame {
     public Payment() {
         initComponents();
         setTitle("KL Bus Express");
-        
-          try{
+    
+    try{
              String busNo = tf_busno.getText();
            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/bus","root","");
            Statement stmt = con.createStatement();
@@ -51,6 +51,7 @@ public class Payment extends javax.swing.JFrame {
         }
     }
         
+          
          
     
     public static class Printer implements Printable {
