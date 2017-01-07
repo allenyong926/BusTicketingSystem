@@ -305,11 +305,97 @@ public class CreateStaff extends javax.swing.JPanel {
             String question = (String)cb_question.getSelectedItem();
             String ans = tf_ans.getText();
             String position = (String)cb_position.getSelectedItem();
-            
+        
+        if(name.equals("")){
+            JOptionPane.showMessageDialog(null,"Name Cannot be empty");
+            return ;
+        }
+        
+       if(name.matches("[a-zA-Z ,]+")){      
+        }else
+            {
+                JOptionPane.showMessageDialog(null,"Name cannot contain sysmbol or digit");
+                return;        
+            }
        
+       if(icno.equals("")){
+            JOptionPane.showMessageDialog(null,"ICNo Cannot be empty");
+            return ;
+        }
+       
+       if(icno.matches("\\d{6}-\\d{2}-\\d{4}")){      
+        }else
+            {
+                JOptionPane.showMessageDialog(null,"ICNO format incorrect must 000000-00-0000");
+                return;        
+            }
+        
+        if(pwd.equals("")){
+            JOptionPane.showMessageDialog(this,"Password Cannot be empty");
+            return ;
+        }
+        
+        if(ph.equals("")){
+            JOptionPane.showMessageDialog(this,"Phone Number Cannot be empty");
+            return ;
+        }
+        
+        if(ph.matches("\\d{3}-\\d{7,8}")){
+          
+        }else
+            {
+             JOptionPane.showMessageDialog(null,"Phone Number format incorrect must xxx-xxxxxx"); 
+             return;      
+            }
+        
+        if(address.equals("")){
+            JOptionPane.showMessageDialog(null,"Address Cannot be empty");
+            return ;
+        }
+        
+        if(city.equals("")){
+            JOptionPane.showMessageDialog(null,"City Cannot be empty");
+            return ;
+        }
+        
+        if(state.equals("")){
+            JOptionPane.showMessageDialog(null,"State Cannot be empty");
+            return ;
+        }
+        
+        if(zip.equals("")){
+            JOptionPane.showMessageDialog(null,"Zip Cannot be empty");
+            return ;
+        }
+        
+        if(email.equals("")){
+            JOptionPane.showMessageDialog(null,"Email Cannot be empty");
+            return ;
+        }
+        
+        if(email.matches("^(.+)@([^@]+[^.]).com$")){
+
+            }else
+            {
+                JOptionPane.showMessageDialog(this,"Email format incorrect must xx@xxx.com.");
+                return ;
+            }
+        
+        if(salary.equals("")){
+            JOptionPane.showMessageDialog(null,"Salary Cannot be empty");
+            return ;
+        }
+        
+        if(salary.matches("\\d{1,6}.\\d{1,2}")){
+ 
+        }else
+            {
+                JOptionPane.showMessageDialog(null,"Salary type incorrect");
+                return;
+            }
            
             double slry = Double.parseDouble(salary);
-            
+                  
             try {
                 StaffBT bt = new StaffBT();
                 String id = bt.CreateStaff(name, pwd, icno, position, sex, ph, address, city, state, zip, email, slry, question, ans);
