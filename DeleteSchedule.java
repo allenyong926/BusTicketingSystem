@@ -24,7 +24,7 @@ public class DeleteSchedule extends javax.swing.JPanel {
      */
     public DeleteSchedule() {
         initComponents();
-        
+    // lidasfsacasaw    
         try{
            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/busticket","root","");
            Statement stmt = con.createStatement();
